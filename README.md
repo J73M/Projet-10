@@ -1,20 +1,21 @@
 <div align="center">
+# Tests automatisés – Eco Bliss Bath
 
-# OpenClassrooms - Eco-Bliss-Bath
-</div>
+## Présentation
 
-<p align="center">
-    <img src="https://img.shields.io/badge/MariaDB-v11.7.2-blue">
-    <img src="https://img.shields.io/badge/Symfony-v6.2-blue">
-    <img src="https://img.shields.io/badge/Angular-v13.3.0-blue">
-    <img src="https://img.shields.io/badge/docker--build-passing-brightgreen">
-  <br><br><br>
-</p>
+Ce projet contient une campagne de tests automatisés réalisée avec **Cypress** dans le cadre de la formation *Testeur Logiciel* d’OpenClassrooms.
 
-# Prérequis
-Pour démarrer cet applicatif web vous devez avoir les outils suivants:
-- Docker
-- NodeJs
+Les tests permettent de vérifier les fonctionnalités essentielles de l’application ainsi que certains comportements de l’API.
+
+---
+
+## Prérequis
+
+- Node.js (version LTS recommandée)
+- npm
+- Le front-end et l’API du projet doivent être démarrés
+
+---
 
 # Installation et démarrage
 Clonez le projet pour le récupérer
