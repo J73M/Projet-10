@@ -1,0 +1,12 @@
+
+
+{
+  "validUser": {
+    "username": "test2@test.fr",
+    "password": "testtest"
+  },
+  "invalidUser": {
+    "username": "faux@openclassrooms.fr",
+    "password": "abcdefgh"
+  }
+}
