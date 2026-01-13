@@ -57,3 +57,34 @@ npx cypress open
 ```
 Cette commande ouvre l’interface graphique de Cypress et permet de lancer les tests manuellement.
 
+# Lancer Cypress en mode headless
+Pour exécuter l’ensemble des tests en ligne de commande, utilisez :
+```
+npx cypress run
+```
+Les tests sont alors exécutés automatiquement sans interface graphique.
+
+# Génération du rapport en mode interface graphique
+
+La génération du rapport en mode interface graphique s’effectue lors de l’exécution des tests via l’interface Cypress.
+Sélectionnez ensuite le navigateur puis le scénario de test à exécuter.
+
+Après l’exécution des tests :
+
+- les captures d’écran des tests en échec sont générées dans le dossier cypress/screenshots
+- les vidéos ne sont pas générées par défaut en mode interface graphique
+
+Les captures d’écran permettent d’analyser les erreurs rencontrées lors de l’exécution des tests.
+
+
+# Génération du rapport en mode headless
+La génération du rapport de tests se fait automatiquement lors de l’exécution des tests Cypress en mode headless.
+
+À la fin de l’exécution, Cypress génère :
+- des vidéos d’exécution des tests dans le dossier cypress/videos
+- des captures d’écran en cas d’échec dans le dossier cypress/screenshots
+
+Ces fichiers constituent le rapport de tests et permettent d’analyser le déroulement des scénarios et les éventuelles erreurs.
+
+
+
