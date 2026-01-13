@@ -33,15 +33,15 @@ Installer Cypress comme dépendance de développement.
 npm install cypress --save-dev 
 ```
 # Pour démarrer le frontend de l'applicatif
-Rendez-vous dans le dossier frontend
+Placez-vous dans le dossier contenant le fichier package.json du front-end :
 ```
-cd ./frontend
+npm start
 ```
 Installez les dépendances du projet
 ```
 npm i
 ou
-npm install (si vous préférez)
+npm install
 ```
 # Lancement des tests Cypress
 
