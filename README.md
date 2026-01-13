@@ -1,7 +1,7 @@
 <div align="center">
 # Tests automatisés – Eco Bliss Bath
 
-## Présentation
+# Présentation
 
 Ce projet contient une campagne de tests automatisés réalisée avec **Cypress**
 
@@ -9,10 +9,11 @@ Les tests permettent de vérifier les fonctionnalités essentielles de l’appli
 
 ---
 
-## Prérequis
+# Prérequis
 
-- Node.js (version LTS recommandée)
+- Node.js
 - npm
+- Docker
 - Le front-end et l’API du projet doivent être démarrés
 
 ---
@@ -42,4 +43,17 @@ npm i
 ou
 npm install (si vous préférez)
 ```
+# Lancement des tests Cypress
+
+Les tests automatisés sont réalisés avec Cypress.
+
+Assurez-vous que l’API et le front-end de l’application sont bien démarrés avant de lancer les tests.
+
+# Lancer Cypress en mode interface graphique
+
+Depuis la racine du projet, exécutez la commande suivante :
+```
+npx cypress open
+```
+Cette commande ouvre l’interface graphique de Cypress et permet de lancer les tests manuellement.
 
