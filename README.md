@@ -28,7 +28,9 @@ Pour démarrer l'API avec ça base de données.
 docker compose up -d
 ```
 Installer Cypress comme dépendance de développement.
-npm install cypress --save-dev
+```
+npm install cypress --save-dev 
+```
 # Pour démarrer le frontend de l'applicatif
 Rendez-vous dans le dossier frontend
 ```
