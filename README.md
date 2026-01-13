@@ -3,9 +3,9 @@
 
 ## Présentation
 
-Ce projet contient une campagne de tests automatisés réalisée avec **Cypress** dans le cadre de la formation *Testeur Logiciel* d’OpenClassrooms.
+Ce projet contient une campagne de tests automatisés réalisée avec **Cypress**
 
-Les tests permettent de vérifier les fonctionnalités essentielles de l’application ainsi que certains comportements de l’API.
+Les tests permettent de vérifier les fonctionnalités essentielles de l’application ainsi que le comportement de l’API.
 
 ---
 
@@ -27,6 +27,8 @@ Pour démarrer l'API avec ça base de données.
 ```
 docker compose up -d
 ```
+Installer Cypress comme dépendance de développement.
+npm install cypress --save-dev
 # Pour démarrer le frontend de l'applicatif
 Rendez-vous dans le dossier frontend
 ```
