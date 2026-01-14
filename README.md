@@ -1,4 +1,3 @@
-<div align="center">
 # Tests automatisés – Eco Bliss Bath
 
 # Présentation
