@@ -68,13 +68,6 @@ Les tests sont alors exécutés automatiquement sans interface graphique.
 La génération du rapport en mode interface graphique s’effectue lors de l’exécution des tests via l’interface Cypress.
 Sélectionnez ensuite le navigateur puis le scénario de test à exécuter.
 
-Après l’exécution des tests :
-
-- les captures d’écran des tests en échec sont générées dans le dossier cypress/screenshots
-- les vidéos ne sont pas générées par défaut en mode interface graphique
-
-Les captures d’écran permettent d’analyser les erreurs rencontrées lors de l’exécution des tests.
-
 
 # Génération du rapport en mode headless
 La génération du rapport de tests se fait automatiquement lors de l’exécution des tests Cypress en mode headless.
