@@ -6,7 +6,7 @@ export default {
   e2e: {
     setupNodeEvents(on, config) {
     },
-    baseUrl: "http://localhost:4200",
+    baseUrl: "http://localhost:8080",
 
   },
 }
